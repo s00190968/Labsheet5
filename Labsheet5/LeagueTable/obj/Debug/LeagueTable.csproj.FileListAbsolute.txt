@@ -1,0 +1,7 @@
+C:\Users\s00190968\Documents\FOOP\Labsheet5\LeagueTable\obj\Debug\LeagueTable.csprojAssemblyReference.cache
+C:\Users\s00190968\Documents\FOOP\Labsheet5\LeagueTable\obj\Debug\LeagueTable.csproj.CoreCompileInputs.cache
+C:\Users\s00190968\Documents\FOOP\Labsheet5\LeagueTable\bin\Debug\LeagueTable.exe.config
+C:\Users\s00190968\Documents\FOOP\Labsheet5\LeagueTable\bin\Debug\LeagueTable.exe
+C:\Users\s00190968\Documents\FOOP\Labsheet5\LeagueTable\bin\Debug\LeagueTable.pdb
+C:\Users\s00190968\Documents\FOOP\Labsheet5\LeagueTable\obj\Debug\LeagueTable.exe
+C:\Users\s00190968\Documents\FOOP\Labsheet5\LeagueTable\obj\Debug\LeagueTable.pdb

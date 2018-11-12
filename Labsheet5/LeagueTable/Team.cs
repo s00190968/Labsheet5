@@ -59,13 +59,14 @@ namespace LeagueTable
                 case Result.Draw:
                     Games++;
                     Draws++;
+                    Points += 1;
                     break;
             }
         }
 
         public void printTeamDetails()
         {
-            Console.WriteLine(string.Format("{0,20} {1,20} {2,20} {3, 20} {4, 20}", name, points, wins, losses, draws));
+            Console.WriteLine(string.Format("{0,20} {1,20} {2,10} {3, 10} {4, 10} {5, 10}", Name, ManagerName, Points, Wins, Losses, Draws));
         }
 
         int IComparable.CompareTo(object obj)

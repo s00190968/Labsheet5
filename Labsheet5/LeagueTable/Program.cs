@@ -18,11 +18,11 @@ namespace LeagueTable
             Team DerryCity = new Team("Derry  City");
             Team Dundalk = new Team("Dundalk");
 
-            teams.Add(SligoRovers);
-            teams.Add(FinnHarps);  
-            teams.Add(GalwayUnited);
-            teams.Add(DerryCity);
-            teams.Add(Dundalk);
+            teams[0] = SligoRovers;
+            teams[1] = FinnHarps;
+            teams[2] = GalwayUnited;
+            teams[3] = DerryCity;
+            teams[4] = Dundalk;
 
             printTeamsdetails(teams);
 
@@ -34,13 +34,15 @@ namespace LeagueTable
 
             printTeamsdetails(teams);
 
-            //List<Team>.Sort(teams);
+            Array.Sort(teams);
+
+            printTeamsdetails(teams);
 
         }
 
-        public static void printTeamsdetails(List<Team> teams)
+        public static void printTeamsdetails(Team[] teams)
         {
-            Console.WriteLine(string.Format("{0,20} {1,20} {2,20} {3, 20} {4, 20}", "Team name:", " Points:", "Wins:", "Losses:", "Draws:"));
+            Console.WriteLine(string.Format("{0,20} {1,20} {2,10} {3, 10} {4, 10} {5, 10}", "Team name:", "Manager:", " Points:", "Wins:", "Losses:", "Draws:"));
             Console.WriteLine();
             foreach (Team team in teams)
             {
